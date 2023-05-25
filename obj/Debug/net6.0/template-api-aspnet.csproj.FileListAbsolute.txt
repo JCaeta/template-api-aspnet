@@ -30,3 +30,8 @@ D:\documents storage\repositories\Reusables\template-api-aspnet\obj\Debug\net6.0
 D:\documents storage\repositories\Reusables\template-api-aspnet\obj\Debug\net6.0\template-api-aspnet.pdb
 D:\documents storage\repositories\Reusables\template-api-aspnet\obj\Debug\net6.0\template-api-aspnet.genruntimeconfig.cache
 D:\documents storage\repositories\Reusables\template-api-aspnet\obj\Debug\net6.0\ref\template-api-aspnet.dll
+D:\documents storage\repositories\Reusables\template-api-aspnet\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\documents storage\repositories\Reusables\template-api-aspnet\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\documents storage\repositories\Reusables\template-api-aspnet\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\documents storage\repositories\Reusables\template-api-aspnet\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\documents storage\repositories\Reusables\template-api-aspnet\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
