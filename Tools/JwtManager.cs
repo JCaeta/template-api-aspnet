@@ -9,60 +9,12 @@ namespace template_api_aspnet.Tools
 {
     public class JwtManager
     {
-        //public string GenerateJwtToken(string secretKey, string issuer, string audience, string subject, int expiryMinutes)
-        //{
-        //    var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
-        //    var signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-
-        //    var claims = new[]
-        //    {
-        //    new Claim(JwtRegisteredClaimNames.Sub, subject),
-        //    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-        //};
-
-        //    var token = new JwtSecurityToken(
-        //        issuer,
-        //        audience,
-        //        claims,
-        //        expires: DateTime.UtcNow.AddMinutes(expiryMinutes),
-        //        signingCredentials: signingCredentials
-        //    );
-
-        //    var encodedToken = new JwtSecurityTokenHandler().WriteToken(token);
-
-        //    return encodedToken;
-        //}
-
         private readonly IConfiguration _configuration;
 
         public JwtManager(IConfiguration configuration) 
         {
             _configuration = configuration;
         }
-
-        //public bool ValidateJwtToken(string token, string secretKey, string issuer, string audience)
-        //{
-        //    var tokenHandler = new JwtSecurityTokenHandler();
-        //    var validationParameters = new TokenValidationParameters
-        //    {
-        //        ValidateIssuer = true,
-        //        ValidateAudience = true,
-        //        ValidateIssuerSigningKey = true,
-        //        ValidIssuer = issuer,
-        //        ValidAudience = audience,
-        //        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
-        //    };
-
-        //    try
-        //    {
-        //        tokenHandler.ValidateToken(token, validationParameters, out _);
-        //        return true; // Token is valid
-        //    }
-        //    catch
-        //    {
-        //        return false; // Token is invalid
-        //    }
-        //}
 
         public bool ValidateJwtToken(string token)
         {
