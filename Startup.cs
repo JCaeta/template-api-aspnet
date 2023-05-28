@@ -9,6 +9,9 @@
         IServiceCollection services = builder.Services;
         ConfigureServices(services);
 
+        var port = Environment.GetEnvironmentVariable("PORT") ?? "5001";
+        builder.WebHost.UseUrls($"http://*:{port}");
+        
         WebApplication app = builder.Build();
         Configure(app);
 
@@ -47,7 +50,7 @@
         {
             endpoints.MapControllers();
         });
-
+        
         if (app.Environment.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
