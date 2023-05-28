@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tTDQihDevcff8ePldBhku7BqWVi8HLUb87S0oK1uqZQjt7910z5Nt1kWdYwwfYSPnO1prxCscXR/swEYtPOeag==",
+  "dgSpecHash": "yHS1l54ClTMpDKI5yqwnjpoRgsYX4kWKhu4N1nmWiruwop0B8sARzlf0fX95SPnyuyW9yDd7OpDq+gPWDx5VvQ==",
   "success": true,
   "projectFilePath": "D:\\documents storage\\repositories\\Reusables\\template-api-aspnet\\template-api-aspnet.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\joaqu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\joaqu\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\joaqu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\joaqu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\joaqu\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\joaqu\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\joaqu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

@@ -19,7 +19,7 @@ namespace template_api_aspnet.Controllers
             _configuration = configuration;
         }
 
-        [HttpGet("random", Name = "GetText")]
+        [HttpGet("get", Name = "GetText")]
         public string Get()
         {
             string[] words = { 
