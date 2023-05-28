@@ -9,6 +9,8 @@
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
     <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
+	<InvariantGlobalization>true</InvariantGlobalization>
+	
   </PropertyGroup>
 
   <ItemGroup>
